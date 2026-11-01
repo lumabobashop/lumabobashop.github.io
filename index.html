@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LÜMA Boba Shop</title>
+<meta name="description" content="LÜMA Boba Shop · Boba shop at Av. Tlaxcala 20 y 21, Col. Jalisco, San Luis Río Colorado, Son. 83447. Menu, directions, hours and reviews.">
+<meta name="theme-color" content="#F4F0E8">
+<meta property="og:title" content="LÜMA Boba Shop">
+<meta property="og:description" content="¡Porque en San Luis se toma boba con estilo! · Av. Tlaxcala 20 y 21, Col. Jalisco, San Luis Río Colorado, Son. 83447">
+<meta property="og:image" content="">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel%20Fat%20One&family=Montserrat:wght@400;500;700&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"LÜMA Boba Shop","servesCuisine":"Bubble tea y café","telephone":"+1-","address":{"@type":"PostalAddress","streetAddress":"Av. Tlaxcala 20 y 21, Col. Jalisco","addressLocality":"San Luis Río Colorado","addressRegion":"Son.","postalCode":"83447","addressCountry":"US"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"08:00","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"22:30"}],"sameAs":["https://www.instagram.com/luma.bobashop/","https://www.facebook.com/p/LUMA-BOBA-SHOP-61578392593615/","https://www.tiktok.com/@luma.bobashop","https://lumabobashop.com/"]}</script>
+<style>
+/* Layout: one 480px phone column on deep harbor navy; photo-led hero, anchor-red actions, a fixed bar of four taps. */
+:root{
+  --bg:#F4F0E8;--surface:#FFFFFF;--line:#E0D8C8;--text:#142A6B;--muted:#566082;
+  --accent:#1E44A8;--accent-text:#FFFFFF;--accent2:#2F5D1F;
+  --display:"Bagel Fat One","Arial Black",Impact,sans-serif;
+  --body:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:14px;--gut:16px;
+  color-scheme:light;
+}
+.wrap .hero::before{background:linear-gradient(180deg,transparent 0%,color-mix(in srgb,var(--bg) 25%,transparent) 30%,color-mix(in srgb,var(--bg) 82%,transparent) 58%,var(--bg) 82%)}
+.wrap .status{background:var(--surface)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.5 var(--body);padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:480px;margin:0 auto}
+.pad{padding-inline:var(--gut)}
+h1,h2,h3{text-wrap:balance;margin:0}
+.ic{width:24px;height:24px;flex:none}
+.eyebrow{font:700 12px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+.sec{padding-block:36px 8px;display:grid;gap:16px}
+.sec>h2{font:400 26px/1.1 var(--display);letter-spacing:.01em}
+
+/* Hero */
+.hero{position:relative;min-height:min(70svh,640px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%;z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--bg) 15%,transparent) 0%,color-mix(in srgb,var(--bg) 40%,transparent) 40%,var(--bg) 96%)}
+.kanji{position:absolute;right:10px;top:18px;display:flex;flex-direction:column;font:400 clamp(84px,26vw,128px)/1 var(--display);color:var(--accent);opacity:.9;letter-spacing:-.04em;text-shadow:0 6px 30px rgba(0,0,0,.45);pointer-events:none;user-select:none}
+.hero-inner{width:100%;padding:24px var(--gut) 8px;display:grid;gap:14px;justify-items:start}
+.logo{width:76px;height:76px;border-radius:50%;box-shadow:0 0 0 3px var(--bg),0 8px 24px rgba(0,0,0,.5)}
+.hero h1{font:400 clamp(40px,12vw,56px)/.95 var(--display);letter-spacing:-.01em}
+.tag{margin:0;color:var(--text);opacity:.85;font-size:17px}
+.status{display:inline-flex;align-items:center;gap:8px;font:500 14px/1 var(--body);background:color-mix(in srgb,var(--bg) 72%,transparent);border:1px solid var(--line);padding:9px 12px;border-radius:999px;backdrop-filter:blur(6px)}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.status.open i{background:#3ECF7A;box-shadow:0 0 0 4px rgba(62,207,122,.18)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 22px;border-radius:999px;font:700 17px/1 var(--body);text-decoration:none;transition:transform .15s}
+.btn:active{transform:scale(.98)}
+.btn-accent{background:var(--accent);color:var(--accent-text)}
+.btn-ghost{border:1px solid var(--line);background:var(--surface)}
+.hero .btn{width:100%;margin-top:4px}
+
+/* Hero without a photo: poster-style field built from the brand colors */
+.hero--plain{min-height:auto;padding-top:56px;background:
+  radial-gradient(90% 70% at 85% 10%,color-mix(in srgb,var(--accent2) 30%,transparent),transparent 60%),
+  radial-gradient(70% 50% at 0% 0%,color-mix(in srgb,var(--accent) 24%,transparent),transparent 70%),var(--bg);padding-bottom:12px}
+.hero--plain::before{background:repeating-linear-gradient(-45deg,color-mix(in srgb,var(--text) 5%,transparent) 0 2px,transparent 2px 14px);-webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);mask-image:linear-gradient(180deg,#000,transparent 85%)}
+.hero--plain h1{font-size:clamp(44px,14vw,64px)}
+.hero--plain .tag{font-style:italic;color:var(--accent2);opacity:1}
+.logo-wrap{position:relative;width:88px;height:88px;flex:none}
+.logo-wrap.is-badge{width:96px;height:96px}
+.logo-wrap .logo{position:absolute;inset:0;width:100%;height:100%}
+.logo-wrap.wide{width:auto;height:auto;padding:12px 18px;border-radius:18px;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.logo-wrap.wide .logo{position:static;display:block;width:min(230px,58vw);height:auto;border-radius:0;box-shadow:none}
+.logo-wrap.wide .mono{display:none}
+.hero h1{color:var(--h1,var(--text))}
+.hero h1 .k{color:var(--hl,var(--accent))}
+.mono{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:var(--accent2);color:var(--bg);font:400 34px/1 var(--display);box-shadow:0 0 0 3px var(--bg),0 8px 24px rgba(0,0,0,.5)}
+.logo.badge{background:var(--text);padding:9px;object-fit:contain;width:96px;height:96px}
+
+/* Hero illustration */
+
+.hero-art{position:absolute;right:-6px;top:28px;width:clamp(120px,34vw,160px);height:auto;transform:rotate(8deg);filter:drop-shadow(0 12px 30px rgba(0,0,0,.4));z-index:-1}
+@media (prefers-reduced-motion:no-preference){.hero-art{animation:clink 4s ease-in-out infinite}@keyframes clink{50%{transform:rotate(4deg) translateY(-4px)}}}
+.hero--plain h1{max-width:72%}
+
+/* Quick actions */
+.quick{list-style:none;margin:0;padding:20px var(--gut) 0;display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.quick li{grid-column:span 2}
+.quick.rem2 li:nth-last-child(-n+2){grid-column:span 3}
+.quick.rem1 li:last-child{grid-column:span 6}
+.quick.quad li{grid-column:span 3}
+.quick a{display:grid;justify-items:center;align-content:center;gap:8px;min-height:88px;padding:12px 6px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none;font:500 13.5px/1.2 var(--body);text-align:center}
+.quick a .ic{color:var(--accent);width:26px;height:26px}
+.quick a:active{background:var(--line)}
+
+/* Featured */
+.rail{list-style:none;margin:0;padding:0 var(--gut) 6px;display:grid;grid-auto-flow:column;grid-auto-columns:72%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gut);scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.card{scroll-snap-align:start;border-radius:var(--r);overflow:hidden;background:var(--surface);border:1px solid var(--line)}
+.card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;max-width:100%}
+.card-txt{padding:12px 14px 14px}
+.card h3{font:700 16px/1.25 var(--body)}
+.card p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.card--text{display:grid;align-content:space-between;min-height:220px;background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 22%,var(--surface)),var(--surface) 70%)}
+.card-ic{display:grid;place-items:center;width:56px;height:56px;margin:16px 14px 0;border-radius:50%;background:var(--bg);color:var(--accent2)}
+.card-ic .ic{width:28px;height:28px}
+.card--text h3{font:400 21px/1.15 var(--display)}
+.card-price{margin:8px 0 0!important;color:var(--accent2)!important;font:700 18px/1 var(--body)!important}
+.hint{margin:0;color:var(--muted);font-size:14px}
+
+/* Menu */
+.menu-box{display:grid;gap:14px;padding:18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.menu-box p{margin:0;color:var(--muted)}
+.menu-thumb{padding:0;border:0;background:none;border-radius:10px;overflow:hidden;cursor:zoom-in}
+.menu-thumb img{display:block;width:100%}
+dialog{border:0;padding:0;background:#000;max-width:100vw;max-height:100dvh;width:100vw;height:100dvh;margin:0}
+dialog::backdrop{background:rgba(0,0,0,.85)}
+dialog .scroll{width:100%;height:100%;overflow:auto;touch-action:pan-x pan-y pinch-zoom;display:grid;place-items:center}
+dialog img{max-width:none;width:100%}
+dialog .close{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:12px;width:48px;height:48px;border-radius:50%;border:0;background:var(--surface);color:var(--text);font:700 22px/1 var(--body)}
+
+/* Structured menu */
+.chips{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:calc(-1 * var(--gut));padding:10px var(--gut);background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;min-height:40px;display:inline-flex;align-items:center;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font:500 14px/1 var(--body);white-space:nowrap}
+.chips a.on{background:var(--accent2);border-color:var(--accent2);color:var(--bg)}
+.msec{scroll-margin-top:72px;display:grid;gap:4px}
+.msec header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;padding:14px 0 8px;border-bottom:2px solid var(--accent)}
+.msec h3{font:400 22px/1.1 var(--display);color:var(--text)}
+.msec header{margin-inline:calc(-1 * var(--gut));padding:14px var(--gut) 12px;border:0;background:linear-gradient(100deg,var(--accent),color-mix(in srgb,var(--accent) 70%,#E23A33));box-shadow:inset 0 -4px 0 color-mix(in srgb,var(--accent2) 90%,transparent)}
+.msec header h3{color:var(--accent-text);font-size:26px;letter-spacing:.02em}
+.msec header p{color:var(--accent-text)!important;opacity:.9}
+.msec header p{margin:0;color:var(--accent2);font-size:13px;font-weight:500}
+.msec ul{list-style:none;margin:0;padding:0}
+.mi{display:grid;grid-template-columns:22px minmax(0,1fr) auto;
+gap:12px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start}
+.glass{width:18px;height:28px;margin-top:2px;border-radius:2px 2px 5px 5px;clip-path:polygon(0 0,100% 0,88% 100%,12% 100%);background:linear-gradient(180deg,#FBF6EA 0 22%,var(--beer) 22%)}
+.glass.can{clip-path:none;border-radius:4px;background:linear-gradient(180deg,#d9dde3 0 10%,var(--beer) 10% 90%,#d9dde3 90%)}
+.mi.has-img{position:relative;cursor:pointer}
+.mi-open{position:absolute;inset:0;width:100%;border:0;background:none;padding:0;cursor:pointer;border-radius:10px;z-index:1}
+.mi.has-img:active{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+@media (hover:hover){.mi.has-img:hover .mi-img{transform:scale(1.06)}}
+.mi-img{transition:transform .2s ease}
+.mi.has-img h4::after{content:" ›";color:var(--accent)}
+dialog.dish{width:min(100vw,480px);max-width:100vw;height:auto;max-height:92dvh;inset:auto 0 0 0;margin:0 auto;padding:0;border:0;border-radius:22px 22px 0 0;background:var(--surface);color:var(--text);overflow:auto}
+dialog.dish::backdrop{background:color-mix(in srgb,var(--bg) 70%,#000);backdrop-filter:blur(4px)}
+@media (prefers-reduced-motion:no-preference){dialog.dish[open]{animation:sheet .28s cubic-bezier(.2,.8,.2,1)}@keyframes sheet{from{transform:translateY(40px);opacity:.4}}}
+.dish-in{margin:0;padding-bottom:env(safe-area-inset-bottom,0px)}
+.dish-fig{position:relative;margin:0}
+.dish-fig img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;max-width:100%}
+.dish-fig img{aspect-ratio:1/1;max-height:56vh;object-position:50% 30%}
+.dish-x{position:absolute;top:12px;right:12px;width:44px;height:44px;border-radius:50%;border:0;background:color-mix(in srgb,var(--bg) 80%,transparent);color:var(--text);font:700 24px/1 var(--body);cursor:pointer}
+.dish-body{display:grid;gap:10px;padding:18px var(--gut) 20px}
+.dish-body .eyebrow{margin:0}
+.dish-body h3{font:400 30px/1.05 var(--display)}
+.dish-desc{margin:0;color:var(--muted);font-size:16px}
+.dish-desc:empty{display:none}
+.dish-prices{display:flex;gap:10px;flex-wrap:wrap}
+.dish-prices span{display:inline-flex;align-items:baseline;gap:8px;padding:10px 16px;border-radius:12px;background:var(--bg);border:1px solid var(--line);font:700 22px/1 var(--body);font-variant-numeric:tabular-nums}
+.dish-prices small{font:500 12px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.dish-cta{width:100%}
+.dish-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.dish-nav .btn{min-height:48px;font-size:15px;cursor:pointer;color:var(--text)}
+.mi.has-img{grid-template-columns:64px minmax(0,1fr) auto;gap:14px}
+.mi-img{width:64px;height:64px;border-radius:12px;object-fit:cover;max-width:100%;background:var(--surface)}
+.dot{width:10px;height:10px;margin:7px 0 0 6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 20%,transparent)}
+.mi h4{margin:0;font:700 17px/1.25 var(--body)}
+.num{display:inline-block;min-width:1.6em;color:var(--accent2);font-variant-numeric:tabular-nums}
+.mi-style{margin:2px 0 0;font-size:13.5px;color:var(--muted)}
+.mi-style b{color:var(--text);font-weight:500}
+.mi-desc{margin:6px 0 0;font-size:14.5px;color:var(--text);opacity:.85}
+.mi-price{margin:0;display:grid;gap:6px;text-align:right;font-variant-numeric:tabular-nums}
+.mi-price div{display:grid;gap:1px}
+.mi-price dt{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.mi-price dd{margin:0;font:700 16px/1.1 var(--body)}
+.msec.compact ul{display:grid;grid-template-columns:1fr 1fr;column-gap:14px}
+.msec.compact .mi{grid-template-columns:16px minmax(0,1fr);gap:8px;padding:12px 0}
+.msec.compact .mi.has-desc{grid-column:1 / -1}
+.msec.compact .dot{margin:6px 0 0 2px;width:8px;height:8px}
+.msec.compact .mi h4{font-size:16px}
+.msec-grid ul{display:grid;grid-template-columns:repeat(4,1fr);gap:14px 10px;padding-top:12px}
+.msec-grid .mi{display:grid;grid-template-columns:1fr!important;align-content:start;justify-items:center;text-align:center;gap:6px;padding:0;border:0}
+.msec-grid .mi-img{width:100%;height:auto;aspect-ratio:1;border-radius:50%;box-shadow:0 0 0 3px var(--accent2)}
+.msec-grid .mi h4{font-size:13.5px}
+.msec-grid .mi h4::after{content:""!important}
+.msec-grid .mi-desc{font-size:12px;margin-top:2px;opacity:.75}
+.mfoot{margin:6px 0 0;text-align:center;font-style:italic;color:var(--accent2);font-size:14px}
+.menu-box--extras{margin-top:8px}
+
+/* Promo */
+.promo{padding:20px;border-radius:var(--r);background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 55%,var(--bg)));color:var(--accent-text);display:grid;gap:10px;justify-items:start}
+.promo-ic{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:color-mix(in srgb,#fff 20%,transparent)}
+#promos{gap:12px}
+.promo .eyebrow{color:inherit;opacity:.85;margin:0}
+.promo h3{font:400 24px/1.1 var(--display)}
+.promo p{margin:0}
+.promo .btn{background:var(--bg);color:var(--text);min-height:48px}
+.season{margin:16px var(--gut) 0;padding:12px 16px;border-radius:var(--r);border:1px dashed var(--accent);color:var(--accent);font-weight:700;text-align:center}
+
+/* Review */
+.ask{padding:22px 18px;border-radius:var(--r);border:1px solid var(--line);display:grid;gap:14px;text-align:center;background:radial-gradient(120% 90% at 50% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 70%)}
+.stars{color:var(--accent);display:flex;justify-content:center;gap:4px}
+.stars .ic{fill:currentColor;width:22px;height:22px}
+.ask p{margin:0;font-size:17px}
+
+/* Visit */
+.visit{display:grid;gap:12px}
+.row{display:flex;gap:14px;align-items:center;padding:16px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none}
+.row .ic{color:var(--accent)}
+.row div{min-width:0}
+.row b{display:block;font-weight:700}
+.loc{display:grid;gap:2px;padding:6px 16px 8px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.loc>.loc-label{margin:10px 0 2px}
+.loc-line{display:flex;gap:14px;align-items:flex-start;padding:10px 0;text-decoration:none;border-top:1px solid var(--line)}
+.loc-line .ic{color:var(--accent);margin-top:1px}
+.loc-line>span{display:grid;gap:2px;min-width:0;flex:1}
+.loc-line small{color:var(--muted);font-size:14px}
+.loc-h{display:flex;justify-content:space-between;gap:12px;font-weight:500;font-variant-numeric:tabular-nums}
+.loc-h span:first-child{color:var(--muted);font-weight:400}
+.loc-label{display:block;color:var(--accent2)!important;font-size:11px!important;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:2px}
+.row small{color:var(--muted);font-size:14px}
+.hours{list-style:none;margin:0;padding:6px 16px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);font-variant-numeric:tabular-nums}
+.hours li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+.hours li:last-child{border-bottom:0}
+.hours li.today{color:var(--text);font-weight:700}
+.hours li.today span:first-child::after{content:" · Hoy";color:var(--accent);font-weight:500}
+
+/* Social + footer */
+.social{display:flex;gap:12px;flex-wrap:wrap}
+.social a{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 18px;border-radius:999px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font-weight:500}
+footer{padding:36px var(--gut) 24px;color:var(--muted);font-size:13px;display:grid;gap:4px;text-align:center}
+footer a{color:var(--muted)}
+
+/* Sticky bar */
+.sb{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:8px var(--gut) calc(8px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s ease}
+.sb.show{transform:none}
+.sb nav{max-width:480px;margin:0 auto;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:8px}
+.sb-btn{display:grid;justify-items:center;gap:4px;padding:8px 4px;min-height:58px;border-radius:12px;text-decoration:none;font:500 12px/1 var(--body);color:var(--muted)}
+.sb-btn .ic{color:var(--text)}
+.sb-btn.is-primary{background:var(--accent);color:var(--accent-text)}
+.sb-btn.is-primary .ic{color:var(--accent-text)}
+@media (min-width:600px){.wrap{border-inline:1px solid var(--line)}.rail{grid-auto-columns:60%}}
+
+/* Animated wave seams between sections */
+.seam{height:56px;background:var(--from);overflow:hidden;margin:-1px 0 -2px;position:relative;z-index:1}
+.seam svg{display:block;width:200%;height:100%}
+.seam .sw1{fill:color-mix(in srgb,var(--accent) 55%,var(--to));opacity:.8}
+.seam .sw2{fill:var(--to)}
+.band{background:var(--band-bg);padding-block:22px 30px!important}
+.band + .seam{margin-top:0}
+@media (prefers-reduced-motion:no-preference){.seam .sw1{animation:drift 16s linear infinite}.seam .sw2{animation:drift 22s linear infinite reverse}@keyframes drift{to{transform:translateX(-800px)}}}
+.reveal{opacity:1;transform:none}
+@media (prefers-reduced-motion:no-preference){.js .reveal:not(.in){opacity:.001;transform:translateY(24px)}.reveal{transition:opacity .6s ease,transform .6s cubic-bezier(.2,.8,.2,1)}}
+/* Brand gradient system */
+:root{--grad:linear-gradient(115deg,#16307F,#1E44A8,#3A66D6);--grad-soft:linear-gradient(160deg,color-mix(in srgb,#16307F 22%,var(--surface)),color-mix(in srgb,#1E44A8 22%,var(--surface)),color-mix(in srgb,#3A66D6 22%,var(--surface)))}
+.btn-accent,.sb-btn.is-primary,.chips a.on{background:var(--grad);background-size:200% 100%;background-position:0 0;border-color:transparent;transition:background-position .5s ease,transform .15s}
+.btn-accent:hover,.btn-accent:focus-visible{background-position:100% 0}
+.chips a.on{color:var(--accent-text)}
+.promo .eyebrow{background:none;color:inherit;opacity:.9}
+.msec header{background:var(--grad)!important;box-shadow:inset 0 -3px 0 color-mix(in srgb,#fff 35%,transparent)!important}
+.promo{background:var(--grad)}
+.card{background:var(--grad-soft);border:1px solid color-mix(in srgb,var(--accent2) 25%,var(--line))}
+.card--text{background:linear-gradient(170deg,color-mix(in srgb,var(--accent) 34%,var(--surface)),var(--surface) 62%)}
+.card-ic{background:var(--grad);color:var(--accent-text)}
+.quick a{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 10%,var(--surface)),var(--surface));position:relative;overflow:hidden}
+.quick a::after{content:"";position:absolute;inset:auto 0 0 0;height:3px;background:var(--grad);opacity:.85}
+.quick a .ic{color:var(--accent2)}
+.eyebrow{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ask{background:radial-gradient(120% 100% at 50% 0%,color-mix(in srgb,var(--accent) 30%,transparent),transparent 70%),var(--surface)}
+.stars{color:var(--accent2)}
+.loc{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 8%,var(--surface)),var(--surface))}
+.wave-div{display:block;width:100%;height:24px;margin:28px 0 -1px;fill:var(--band,var(--surface))}
+.wave-div+.sec{padding-top:12px;padding-bottom:20px;background:var(--band,var(--surface))}
+.wave-div+.sec+.wave-div{transform:scaleY(-1);margin:-1px 0 0}
+@media (prefers-reduced-motion:no-preference){.sun{animation:rise 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes rise{from{transform:translateY(40px);opacity:0}}}
+
+
+
+
+
+/* LÜMA hero */
+.hero--plain:has(.luma-art){padding-top:330px;color:#fff;background:radial-gradient(80% 50% at 50% 22%,#2B57C8 0%,transparent 70%),linear-gradient(180deg,#1A3A9C 0%,#16307F 60%,#122867 100%)}
+.hero--plain:has(.luma-art)::before{display:none}
+.hero--plain:has(.luma-art) .tag{color:#fff;opacity:.9;font-style:normal;letter-spacing:.02em}
+.hero--plain:has(.luma-art) .status{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff}
+.hero--plain:has(.luma-art) .btn-accent{background:#F4EFE6;color:#16307F}
+.luma-art{position:absolute;inset:0;z-index:-1;overflow:hidden}
+.mascot{position:absolute;left:50%;top:34px;width:170px;height:auto;max-width:100%;transform:translateX(-50%);filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))}
+.pearl{position:absolute;bottom:-40px;width:var(--s);height:var(--s);border-radius:50%;background:radial-gradient(circle at 35% 30%,#5c4033,#241712 70%);opacity:.55;animation:rise linear infinite}
+.swirl{position:absolute;width:70px;height:70px;border-radius:50%;border:3px solid rgba(255,255,255,.22);border-right-color:transparent;border-bottom-color:transparent}
+.sw-a{left:6%;top:70px}.sw-b{right:8%;top:200px;width:46px;height:46px}
+@keyframes rise{0%{transform:translateY(0)}100%{transform:translateY(-760px)}}
+@media (prefers-reduced-motion:no-preference){
+ .mascot{animation:bob 3.2s ease-in-out infinite alternate}@keyframes bob{to{transform:translateX(-50%) translateY(-12px) rotate(-3deg)}}
+ .swirl{animation:spinS 9s linear infinite}@keyframes spinS{to{transform:rotate(360deg)}}}
+@media (prefers-reduced-motion:reduce){.pearl{animation:none;bottom:auto;top:calc(var(--s) * 12)}}
+.title-img{margin:0}.title-img img{display:block;width:min(260px,68vw);height:auto}
+
+/* Torn paper transitions */
+.torn{height:40px;background:var(--to);margin:-1px 0 -1px;position:relative;z-index:1}
+.torn svg{display:block;width:100%;height:100%;fill:var(--from);overflow:visible;filter:drop-shadow(0 3px 2px rgba(0,0,0,.18))}
+.torn .torn-edge{fill:#FBF8F2}
+.about h2{font:400 30px/1.05 var(--display)}
+.about-p{margin:0;font-size:16px;line-height:1.6;max-width:60ch}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:6px 0 0}
+.stats div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 10px;text-align:center}
+.stats dt{font:400 24px/1 var(--display);color:var(--accent)}
+.stats dd{margin:6px 0 0;font-size:12px;color:var(--muted);letter-spacing:.04em}
+.msec-fig{margin:12px 0 4px;display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;align-items:center}
+.msec-fig img{width:110px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:14px;max-width:100%;box-shadow:0 10px 24px rgba(0,0,0,.15)}
+.msec-fig figcaption{font-size:14px;color:var(--muted);line-height:1.5}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="hero hero--plain">
+    
+    <div class="luma-art" aria-hidden="true"><span class="pearl" style="left:39.4%;--s:22px;animation-duration:11.2s;animation-delay:-9.8s"></span><span class="pearl" style="left:52.9%;--s:14px;animation-duration:7.2s;animation-delay:-1.9s"></span><span class="pearl" style="left:94.4%;--s:15px;animation-duration:7.9s;animation-delay:-9.0s"></span><span class="pearl" style="left:48.9%;--s:22px;animation-duration:7.8s;animation-delay:-7.5s"></span><span class="pearl" style="left:75.4%;--s:15px;animation-duration:8.7s;animation-delay:-3.9s"></span><span class="pearl" style="left:19.7%;--s:19px;animation-duration:14.1s;animation-delay:-9.6s"></span><span class="pearl" style="left:44.2%;--s:22px;animation-duration:12.1s;animation-delay:-11.5s"></span><span class="pearl" style="left:73.1%;--s:10px;animation-duration:11.7s;animation-delay:-10.8s"></span><span class="pearl" style="left:69.5%;--s:20px;animation-duration:12.9s;animation-delay:-9.7s"></span><span class="pearl" style="left:89.3%;--s:19px;animation-duration:13.4s;animation-delay:-5.7s"></span><span class="pearl" style="left:13.9%;--s:10px;animation-duration:13.5s;animation-delay:-6.6s"></span><span class="pearl" style="left:19.8%;--s:14px;animation-duration:9.6s;animation-delay:-5.4s"></span><span class="pearl" style="left:56.2%;--s:22px;animation-duration:9.1s;animation-delay:-10.1s"></span><span class="pearl" style="left:57.7%;--s:9px;animation-duration:11.5s;animation-delay:-11.4s"></span><span class="pearl" style="left:30.5%;--s:11px;animation-duration:9.5s;animation-delay:-4.6s"></span><span class="pearl" style="left:8.8%;--s:10px;animation-duration:12.5s;animation-delay:-8.7s"></span><span class="swirl sw-a"></span><span class="swirl sw-b"></span><img class="mascot" src="img/mascot.png" alt=""></div>
+    
+    <div class="hero-inner">
+      
+      <h1 class="title-img"><img src="img/wordmark.png" alt="LÜMA Boba Shop" width="545" height="242"></h1>
+      <p class="tag">¡Porque en San Luis se toma boba con estilo!</p>
+      <p class="status" id="status" role="status"><i></i><span>Horario abajo</span></p>
+      <a class="btn btn-accent" href="#menu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>Ver el menú</a>
+    </div>
+  </header>
+
+  
+
+  <nav aria-label="Accesos rápidos">
+    <ul class="quick">
+      <li><a class="" href="#menu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg><span>Menú</span></a></li><li><a class="" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="directions" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span>Cómo llegar</span></a></li><li><a class="" href="https://www.instagram.com/luma.bobashop/" data-go="instagram" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a></li><li><a class="" href="https://www.tiktok.com/@luma.bobashop" data-go="tiktok" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg><span>TikTok</span></a></li><li><a class="" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="review" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><span>Reseña</span></a></li><li><a class="" href="https://lumabobashop.com/" data-go="website" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></svg><span>Sitio web</span></a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="torn" style="--from:var(--bg);--to:#F4F0E8" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#F4F0E8" class="sec band" aria-labelledby="f-h">
+      <div class="pad"><p class="eyebrow">Favoritos</p><h2 id="f-h">Bebidas con estilo</h2></div>
+      <ul class="rail" aria-label="Bebidas con estilo">
+        <li class="card">
+          <img src="img/boba.webp" alt="Bebidas boba: 12 sabores con tapioca y cold foam" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Bebidas boba</h3><p>12 sabores con tapioca y cold foam</p><p class="card-price">$100</p></div>
+        </li>
+        <li class="card">
+          <img src="img/pinkbear.webp" alt="Sweet Bear: Pink Bear o Dark Bear, con osito incluido" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Sweet Bear</h3><p>Pink Bear o Dark Bear, con osito incluido</p><p class="card-price">$115</p></div>
+        </li>
+        <li class="card">
+          <img src="img/icecream.webp" alt="Ice Cream Boba: Cookies and cream o chocolate, con tapioca" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Ice Cream Boba</h3><p>Cookies and cream o chocolate, con tapioca</p><p class="card-price">$110</p></div>
+        </li>
+        <li class="card">
+          <img src="img/matcha.webp" alt="Matcha: Latte, cocada, pink, taro y más" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Matcha</h3><p>Latte, cocada, pink, taro y más</p><p class="card-price">desde $90</p></div>
+        </li>
+        <li class="card">
+          <img src="img/latte.webp" alt="Lattes: Caramelo, horchata, pink latte, calabaza…" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Lattes</h3><p>Caramelo, horchata, pink latte, calabaza…</p><p class="card-price">desde $75</p></div>
+        </li>
+        <li class="card">
+          <img src="img/refresher.webp" alt="Refreshers: Limonadas con perlas explosivas" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Refreshers</h3><p>Limonadas con perlas explosivas</p><p class="card-price">desde $75</p></div>
+        </li>
+        <li class="card">
+          <img src="img/frappe.webp" alt="Frappé: A base de leche, sin cafeína" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Frappé</h3><p>A base de leche, sin cafeína</p><p class="card-price">desde $80</p></div>
+        </li>
+        <li class="card">
+          <img src="img/finitos.webp" alt="Finitos: Smoothies de fruta a base de agua" width="437" height="578" loading="lazy" decoding="async">
+          <div class="card-txt"><h3>Finitos</h3><p>Smoothies de fruta a base de agua</p><p class="card-price">desde $80</p></div>
+        </li>
+      </ul>
+      <p class="hint pad">Desliza para ver más · toca una bebida del menú para verla de cerca</p>
+    </section>
+    <section class="sec pad about" aria-labelledby="a-h">
+      <p class="eyebrow">Nuestra historia</p>
+      <h2 id="a-h">Luz para volver a empezar</h2>
+      <p class="about-p">LÜMA nació en 2025 en San Luis Río Colorado, de la mano de los hermanos Alan y Diego Alcalá. El nombre viene de la luz y de la oportunidad de volver a empezar.</p><p class="about-p">Hoy son dos sucursales sobre la Av. Tlaxcala, una con drive-thru, con bobas, lattes, matcha, refreshers y especiales de temporada. Porque en San Luis se toma boba con estilo.</p>
+      <dl class="stats"><div><dt>2025</dt><dd>Desde</dd></div><div><dt>2</dt><dd>Sucursales</dd></div><div><dt>12</dt><dd>Sabores de boba</dd></div></dl>
+      <a class="btn btn-ghost" href="https://lumabobashop.com/" data-go="website" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></svg>Visita lumabobashop.com</a>
+    </section>
+
+    <div class="torn" style="--from:#F4F0E8;--to:#E8E2D4" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#E8E2D4" class="sec band pad" id="menu" aria-labelledby="m-h">
+      <h2 id="m-h">Menú</h2>
+      <nav class="chips" aria-label="Secciones del menú"><a href="#m-boba">Bebidas boba</a><a href="#m-especiales">Especiales</a><a href="#m-lattes">Lattes</a><a href="#m-matcha">Matcha</a><a href="#m-refresher">Refreshers</a><a href="#m-frappe">Frappé</a><a href="#m-finitos">Finitos</a></nav>
+      <p class="hint">Precios en pesos mexicanos (MXN). Toca una bebida con foto para verla de cerca.</p>
+      <section class="msec compact" id="m-boba" aria-labelledby="mh-boba">
+        <header><h3 id="mh-boba">Bebidas boba</h3><p>Todas $100</p></header>
+        <figure class="msec-fig"><img src="img/boba.webp" alt="Bebidas boba" width="560" height="700" loading="lazy" decoding="async"><figcaption>Leche, cold foam y tapioca. Todas las bebidas boba cuestan $100.</figcaption></figure>
+        <ul><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Chocolate Milk Boba</h4>
+            
+            <p class="mi-desc">Leche de chocolate intenso con cold foam y galleta molida.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Nesquik</h4>
+            
+            <p class="mi-desc">Leche de chocolate con cold foam de moka blanco y cereal.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Kitty</h4>
+            
+            <p class="mi-desc">Leche de moka blanco con cold foam de fresa.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Kurumi</h4>
+            
+            <p class="mi-desc">Leche de moka blanco con cold foam de taro.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Sugar Brown</h4>
+            
+            <p class="mi-desc">Leche de azúcar mascabado con cold foam.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Sakura</h4>
+            
+            <p class="mi-desc">Leche de fresa con cold foam de taro.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Cookie</h4>
+            
+            <p class="mi-desc">Leche de Lotus con cold foam de vainilla.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Bobacha</h4>
+            
+            <p class="mi-desc">Matcha latte con tapioca.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Bobo</h4>
+            
+            <p class="mi-desc">Taro latte.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Caramel Boba</h4>
+            
+            <p class="mi-desc">Caramel macchiato (1 shot de café).</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Nube</h4>
+            
+            <p class="mi-desc">Leche de taro y cold foam de coco.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>LÜMA</h4>
+            
+            <p class="mi-desc">Leche de moka blanco con cold foam de queso crema, bolitas explosivas de arándano y tapioca.</p>
+          </div>
+          
+        </li></ul>
+      </section><section class="msec" id="m-especiales" aria-labelledby="mh-especiales">
+        <header><h3 id="mh-especiales">Especiales</h3></header>
+        
+        <ul><li class="mi has-desc has-img" data-name="Pink Bear" data-sec="Especiales" data-desc="Leche de moka blanco con cherry y cold foam de moka, incluye tapioca." data-prices="[[&quot;Sweet Bear&quot;,&quot;$115&quot;]]" data-big="img/pinkbear.webp">
+          <button class="mi-open" type="button" aria-label="See Pink Bear"></button>
+          <img class="mi-img" src="img/pinkbear.webp" alt="" width="64" height="64" loading="lazy" decoding="async">
+          <div class="mi-main">
+            <h4>Pink Bear</h4>
+            
+            <p class="mi-desc">Leche de moka blanco con cherry y cold foam de moka, incluye tapioca.</p>
+          </div>
+          <dl class="mi-price"><div><dt>Sweet Bear</dt><dd>$115</dd></div></dl>
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Dark Bear</h4>
+            
+            <p class="mi-desc">Leche de moka con cherry y cold foam de cherry, incluye tapioca.</p>
+          </div>
+          <dl class="mi-price"><div><dt>Sweet Bear</dt><dd>$115</dd></div></dl>
+        </li><li class="mi has-desc has-img" data-name="Cookies and Cream" data-sec="Especiales" data-desc="Nieve de cookies and cream con leche de moka blanco, Oreo y tapioca." data-prices="[[&quot;Grande&quot;,&quot;$110&quot;]]" data-big="img/icecream.webp">
+          <button class="mi-open" type="button" aria-label="See Cookies and Cream"></button>
+          <img class="mi-img" src="img/icecream.webp" alt="" width="64" height="64" loading="lazy" decoding="async">
+          <div class="mi-main">
+            <h4>Cookies and Cream</h4>
+            
+            <p class="mi-desc">Nieve de cookies and cream con leche de moka blanco, Oreo y tapioca.</p>
+          </div>
+          <dl class="mi-price"><div><dt>Grande</dt><dd>$110</dd></div></dl>
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Chocolate Ice Cream</h4>
+            
+            <p class="mi-desc">Nieve de chocolate con leche de moka, tapioca, crema batida y Oreo.</p>
+          </div>
+          <dl class="mi-price"><div><dt>Grande</dt><dd>$110</dd></div></dl>
+        </li></ul>
+      </section><section class="msec compact" id="m-lattes" aria-labelledby="mh-lattes">
+        <header><h3 id="mh-lattes">Lattes</h3><p>Chico $75 · Mediano $85 · Grande $95</p></header>
+        <figure class="msec-fig"><img src="img/latte.webp" alt="Lattes" width="560" height="700" loading="lazy" decoding="async"><figcaption>Agrega cold foam y cereal por $10.</figcaption></figure>
+        <ul><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Caramelo</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Vainilla</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Caramel Macchiato</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Horchata</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Moka</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Pink Latte</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Calabaza</h4>
+            
+            
+          </div>
+          
+        </li></ul>
+      </section><section class="msec compact" id="m-matcha" aria-labelledby="mh-matcha">
+        <header><h3 id="mh-matcha">Matcha</h3><p>Mediano $90 · Grande $100</p></header>
+        <figure class="msec-fig"><img src="img/matcha.webp" alt="Matcha" width="560" height="700" loading="lazy" decoding="async"><figcaption>Matcha preparado al momento, en las rocas.</figcaption></figure>
+        <ul><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Matcha Latte</h4>
+            
+            <p class="mi-desc">Matcha y leche en las rocas.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Cocada</h4>
+            
+            <p class="mi-desc">Matcha latte con leche de coco y cold foam de coco.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Pink Matcha</h4>
+            
+            <p class="mi-desc">Matcha latte con cold foam de fresa.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Matcha Refrescante</h4>
+            
+            <p class="mi-desc">Matcha latte con perlas explosivas de fresa o blueberry.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Taro Matcha</h4>
+            
+            <p class="mi-desc">Matcha latte con 2 pumps de taro y cold foam de taro.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Matcha Chai Latte</h4>
+            
+            <p class="mi-desc">Matcha latte con toques de chai.</p>
+          </div>
+          
+        </li></ul>
+      </section><section class="msec compact" id="m-refresher" aria-labelledby="mh-refresher">
+        <header><h3 id="mh-refresher">Refreshers</h3><p>Chico $75 · Mediano $85 · Grande $95</p></header>
+        <figure class="msec-fig"><img src="img/refresher.webp" alt="Refreshers" width="560" height="700" loading="lazy" decoding="async"><figcaption>Limonadas y agua de coco con perlas explosivas.</figcaption></figure>
+        <ul><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Mango Dragon Fruit</h4>
+            
+            <p class="mi-desc">Limonada de mango con dragon fruit.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Coconut</h4>
+            
+            <p class="mi-desc">Agua de coco con matcha.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Blueberry Refresh</h4>
+            
+            <p class="mi-desc">Limonada de blueberry y perlas de blueberry.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Limonada de Mango</h4>
+            
+            <p class="mi-desc">Limonada de mango y perlas de mango.</p>
+          </div>
+          
+        </li><li class="mi has-desc">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Limonada de Fresa</h4>
+            
+            <p class="mi-desc">Limonada de fresa y perlas de fresa.</p>
+          </div>
+          
+        </li></ul>
+      </section><section class="msec compact" id="m-frappe" aria-labelledby="mh-frappe">
+        <header><h3 id="mh-frappe">Frappé</h3><p>Mediano $80 · Grande $90</p></header>
+        <figure class="msec-fig"><img src="img/frappe.webp" alt="Frappé" width="560" height="700" loading="lazy" decoding="async"><figcaption>A base de leche, sin cafeína.</figcaption></figure>
+        <ul><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Oreo</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Moka</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Mazapán</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Caramelo</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Taro</h4>
+            
+            
+          </div>
+          
+        </li></ul>
+      </section><section class="msec compact" id="m-finitos" aria-labelledby="mh-finitos">
+        <header><h3 id="mh-finitos">Finitos</h3><p>Mediano $80 · Grande $90</p></header>
+        <figure class="msec-fig"><img src="img/finitos.webp" alt="Finitos" width="560" height="700" loading="lazy" decoding="async"><figcaption>Smoothie a base de agua, sabor y topping a elección.</figcaption></figure>
+        <ul><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Mango</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Fresa</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Piña</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Lychee</h4>
+            
+            
+          </div>
+          
+        </li><li class="mi">
+          
+          <span class="dot" aria-hidden="true"></span>
+          <div class="mi-main">
+            <h4>Manzana verde</h4>
+            
+            
+          </div>
+          
+        </li></ul>
+      </section>
+      <p class="mfoot">¡Porque en San Luis se toma boba con estilo!</p>
+      
+    </section>
+
+    <div class="torn" style="--from:#E8E2D4;--to:#F4F0E8" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#F4F0E8" class="sec band pad" id="promos" aria-label="Specials" hidden>
+      <article class="promo has-ic" data-start="" data-end="" hidden>
+        <p class="eyebrow">LÜMA 2</p>
+        <span class="promo-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span><h3>Pide sin bajarte del carro</h3>
+        <p>Nuestra sucursal de Av. Tlaxcala y Pesqueira tiene drive-thru y abre desde las 8 AM.</p>
+        <a class="btn btn-accent" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+Tlaxcala+%26+Calle+Ignacio+Pesqueira+Ruiz+Cort%C3%ADnes+83439+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="directions2" target="_blank" rel="noopener">Cómo llegar</a>
+      </article>
+      <article class="promo has-ic" data-start="" data-end="" hidden>
+        <p class="eyebrow">Edición limitada</p>
+        <span class="promo-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="16" height="11" rx="1.5"/><path d="M3 9h18M12 9v11M12 9c-2-4-6-4-6-1.5S10 9 12 9c2 0 6 .5 6-1.5S14 5 12 9z"/></svg></span><h3>Sabores que no duran</h3>
+        <p>Lanzamos bebidas de temporada y ediciones limitadas. Síguenos para no perdértelas.</p>
+        <a class="btn btn-accent" href="https://www.instagram.com/luma.bobashop/" data-go="instagram" target="_blank" rel="noopener">Seguir en Instagram</a>
+      </article></section>
+
+    <div class="torn" style="--from:#F4F0E8;--to:#E8E2D4" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#E8E2D4" class="sec band pad" aria-labelledby="r-h">
+      <div class="ask">
+        <div class="stars" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg></div>
+        <h2 id="r-h" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Déjanos tu reseña</h2>
+        <p>¿Te gustó tu boba? Déjanos una reseña en Google, nos ayuda muchísimo.</p>
+        <a class="btn btn-accent" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="review" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>Déjanos tu reseña</a>
+      </div>
+    </section>
+
+    <div class="torn" style="--from:#E8E2D4;--to:#F4F0E8" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#F4F0E8" class="sec band pad" id="visit" aria-labelledby="v-h">
+      <h2 id="v-h">Visítanos</h2>
+      <div class="visit">
+        <article class="loc">
+          <p class="loc-label">LÜMA · Av. Tlaxcala 20 y 21</p>
+          <a class="loc-line" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="directions" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span><b>Av. Tlaxcala 20 y 21, Col. Jalisco</b><small>San Luis Río Colorado, Son. 83447 · Cómo llegar</small></span></a>
+          
+          <div class="loc-line"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span><b class="loc-h"><span>Todos los días</span><span>10:30 AM – 10 PM</span></b></span></div>
+        </article><article class="loc">
+          <p class="loc-label">LÜMA 2 · Drive-thru</p>
+          <a class="loc-line" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+Tlaxcala+%26+Calle+Ignacio+Pesqueira+Ruiz+Cort%C3%ADnes+83439+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="directions2" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span><b>Av. Tlaxcala y Calle Ignacio Pesqueira, Col. Ruiz Cortines</b><small>San Luis Río Colorado, Son. 83439 · Cómo llegar</small></span></a>
+          
+          <div class="loc-line"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span><b class="loc-h"><span>Todos los días</span><span>8 AM – 10:30 PM</span></b><b class="loc-h"><span>Drive-thru</span><span>Sí</span></b></span></div>
+        </article>
+        
+        
+      </div>
+    </section>
+
+    <div class="torn" style="--from:#F4F0E8;--to:#E8E2D4" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div><section style="--band-bg:#E8E2D4" class="sec band pad" aria-labelledby="s-h">
+      <h2 id="s-h">Síguenos</h2>
+      <div class="social"><a class="" href="https://www.instagram.com/luma.bobashop/" data-go="instagram" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a><a class="" href="https://www.facebook.com/p/LUMA-BOBA-SHOP-61578392593615/" data-go="facebook" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 21v-7.5h2.6l.4-3H14V8.7c0-.9.3-1.5 1.6-1.5H17V4.5a19 19 0 0 0-2.3-.1c-2.3 0-3.7 1.4-3.7 3.9v2.2H8.4v3H11V21"/></svg>Facebook</a><a class="" href="https://www.tiktok.com/@luma.bobashop" data-go="tiktok" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg>TikTok</a><a class="" href="https://lumabobashop.com/" data-go="website" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></svg>Sitio web</a></div>
+    </section>
+  <div class="torn" style="--from:#E8E2D4;--to:var(--bg)" aria-hidden="true"><svg viewBox="0 0 400 40" preserveAspectRatio="none"><path class="torn-edge" d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z"/><path d="M0 0H400V400 22.1L392 27.8L384 24.9L376 19.4L368 15.6L360 19.2L352 14.9L344 12.5L336 16.8L328 14.5L320 16.2L312 21.0L304 27.3L296 27.6L288 24.7L280 24.1L272 23.3L264 24.5L256 21.1L248 25.5L240 20.1L232 24.0L224 17.6L216 15.0L208 14.2L200 14.7L192 16.1L184 18.2L176 21.5L168 19.7L160 24.4L152 18.0L144 11.8L136 10.5L128 15.7L120 9.9L112 13.8L104 15.7L96 20.7L88 18.9L80 22.6L72 26.7L64 28.1L56 30.5L48 27.8L40 32.0L32 32.0L24 32.0L16 32.0L8 31.6L0 32.0Z" transform="translate(0 -4)"/></svg></div></main>
+
+  <footer>
+    <span>© 2026 LÜMA Boba Shop · San Luis Río Colorado, Son.</span>
+    
+  </footer>
+</div>
+
+<dialog class="dish" id="dish" aria-labelledby="dish-name">
+  <form method="dialog" class="dish-in">
+    <figure class="dish-fig"><img id="dish-img" alt="" width="640" height="480"><button class="dish-x" value="close" aria-label="Cerrar">×</button></figure>
+    <div class="dish-body">
+      <p class="eyebrow" id="dish-sec"></p>
+      <h3 id="dish-name"></h3>
+      <p class="dish-desc" id="dish-desc"></p>
+      <div class="dish-prices" id="dish-prices"></div>
+      
+      <div class="dish-nav"><button type="button" class="btn btn-ghost" id="dish-prev" aria-label="Previous dish">‹ Anterior</button><button type="button" class="btn btn-ghost" id="dish-next" aria-label="Next dish">Siguiente ›</button></div>
+    </div>
+  </form>
+</dialog>
+
+<div class="sb" id="sb"><nav aria-label="Acciones"><a class="sb-btn is-primary" href="#menu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg><span>Menú</span></a><a class="sb-btn" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="directions" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span>Cómo llegar</span></a><a class="sb-btn" href="https://www.google.com/maps/search/?api=1&amp;query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora" data-go="review" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><span>Reseña</span></a><a class="sb-btn" href="https://www.instagram.com/luma.bobashop/" data-go="instagram" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a></nav></div>
+
+
+
+<script>
+(() => {
+  const C = {"live":true,"slug":"lumabobashop","analytics":"auto","tz":"America/Hermosillo","hours":{"sun":[["08:00","22:30"]],"mon":[["08:00","22:30"]],"tue":[["08:00","22:30"]],"wed":[["08:00","22:30"]],"thu":[["08:00","22:30"]],"fri":[["08:00","22:30"]],"sat":[["08:00","22:30"]]},"links":{"menu":"","review":"https://www.google.com/maps/search/?api=1&query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora","directions":"https://www.google.com/maps/search/?api=1&query=LUMA+Boba+Shop+Av.+Tlaxcala+20+y+21+Jalisco+83447+San+Luis+R%C3%ADo+Colorado+Sonora","instagram":"https://www.instagram.com/luma.bobashop/","facebook":"https://www.facebook.com/p/LUMA-BOBA-SHOP-61578392593615/","tiktok":"https://www.tiktok.com/@luma.bobashop","website":"https://lumabobashop.com/"}};
+
+  // 1) When deployed at /<slug>/, route every outbound tap through /<slug>/go/<key> (editable + countable).
+  const path = location.pathname.replace(/index\.html$/, "");
+  if (C.live) {
+    const base = path.endsWith("/") ? path : path.replace(/[^/]*$/, "");
+    document.querySelectorAll("a[data-go]").forEach(el => {
+      if (!el.dataset.go.startsWith("call")) el.href = base + "go/" + el.dataset.go + "/";
+    });
+    if (C.analytics === "vercel" || (C.analytics === "auto" && /\.vercel\.app$/.test(location.hostname))) {
+      const s = document.createElement("script"); s.defer = true; s.src = "/_vercel/insights/script.js"; document.head.appendChild(s);
+    }
+  }
+
+  // 2) Open-now badge, computed in the restaurant's time zone.
+  const DAYS = ["sun","mon","tue","wed","thu","fri","sat"];
+  const nowIn = tz => {
+    const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", hour: "numeric", minute: "numeric", hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+    return { day: DAYS.indexOf(p.weekday.slice(0,3).toLowerCase()), min: (+p.hour % 24) * 60 + +p.minute, date: p.year + "-" + p.month + "-" + p.day };
+  };
+  const toMin = t => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
+  const fmt = m => { const h = Math.floor(m / 60) % 24, mm = m % 60; return ((h + 11) % 12 + 1) + (mm ? ":" + String(mm).padStart(2, "0") : "") + (h < 12 ? " AM" : " PM"); };
+  window.__statusAt = (day, min) => {
+    const today = C.hours[DAYS[day]] || [];
+    for (const [o, c] of today) {
+      const om = toMin(o), cm = toMin(c) <= om ? toMin(c) + 1440 : toMin(c);
+      if (min >= om && min < cm) return { open: true, text: "Abierto · cierra " + fmt(cm) };
+    }
+    // still open from yesterday's after-midnight shift?
+    for (const [o, c] of C.hours[DAYS[(day + 6) % 7]] || []) {
+      if (toMin(c) <= toMin(o) && min < toMin(c)) return { open: true, text: "Abierto · cierra " + fmt(toMin(c)) };
+    }
+    for (const [o] of today) if (min < toMin(o)) return { open: false, text: "Cerrado · abre hoy a las " + fmt(toMin(o)) };
+    for (let i = 1; i <= 7; i++) {
+      const d = (day + i) % 7, r = C.hours[DAYS[d]] || [];
+      if (r.length) return { open: false, text: "Cerrado · abre " + (i === 1 ? "mañana" : ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"][d]) + " a las " + fmt(toMin(r[0][0])) };
+    }
+    return { open: false, text: "Cerrado" };
+  };
+  const n = nowIn(C.tz);
+  const st = window.__statusAt(n.day, n.min);
+  const badge = document.getElementById("status");
+  if (badge && Object.values(C.hours || {}).some(r => r && r.length)) { badge.querySelector("span").textContent = (badge.dataset.prefix || "") + st.text; badge.classList.toggle("open", st.open); }
+  const todayRow = document.querySelector('.hours li[data-day="' + DAYS[n.day] + '"]');
+  if (todayRow) todayRow.classList.add("today");
+
+  // 3) Promos show only inside their date window.
+  let anyPromo = false;
+  document.querySelectorAll(".promo").forEach(p => {
+    const ok = (!p.dataset.start || n.date >= p.dataset.start) && (!p.dataset.end || n.date <= p.dataset.end);
+    p.hidden = !ok; anyPromo ||= ok;
+  });
+  const promoSec = document.getElementById("promos");
+  if (promoSec) promoSec.hidden = !anyPromo;
+
+  // 4) Sticky bar appears once the hero scrolls away.
+  const sb = document.getElementById("sb"), hero = document.querySelector(".hero");
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(([e]) => sb.classList.toggle("show", !e.isIntersecting), { threshold: 0.15 }).observe(hero);
+  } else sb.classList.add("show");
+
+  // 4b) Highlight the menu chip for the section in view.
+  const chips = [...document.querySelectorAll(".chips a")];
+  if (chips.length && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) chips.forEach(ch => ch.classList.toggle("on", ch.getAttribute("href") === "#" + e.target.id));
+    }), { rootMargin: "-30% 0px -60% 0px" });
+    document.querySelectorAll(".msec").forEach(s => io.observe(s));
+  }
+
+  // 4b2) Gentle reveal as sections enter the screen (content stays visible without JS).
+  if (true && "IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const els = document.querySelectorAll(".loc");
+    els.forEach(el => el.classList.add("reveal"));
+    document.documentElement.classList.add("js");
+    const ro = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); ro.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px" });
+    els.forEach(el => { if (el.getBoundingClientRect().top < innerHeight) el.classList.add("in"); ro.observe(el); });
+  }
+
+  // 4c) Dish preview sheet.
+  const dish = document.getElementById("dish");
+  if (dish) {
+    const list = [...document.querySelectorAll(".mi[data-big]")];
+    let idx = 0, opener = null;
+    const show = i => {
+      idx = (i + list.length) % list.length;
+      const d = list[idx].dataset;
+      const img = document.getElementById("dish-img");
+      img.src = d.big; img.alt = d.name;
+      document.getElementById("dish-sec").textContent = d.sec;
+      document.getElementById("dish-name").textContent = d.name;
+      document.getElementById("dish-desc").textContent = d.desc;
+      const pr = document.getElementById("dish-prices"); pr.textContent = "";
+      JSON.parse(d.prices || "[]").forEach(([sz, p]) => {
+        const s = document.createElement("span");
+        if (sz) { const sm = document.createElement("small"); sm.textContent = sz; s.appendChild(sm); }
+        s.appendChild(document.createTextNode(p)); pr.appendChild(s);
+      });
+    };
+    list.forEach((li, i) => li.querySelector(".mi-open").addEventListener("click", e => {
+      opener = e.currentTarget; show(i); dish.showModal(); dish.scrollTop = 0;
+    }));
+    document.getElementById("dish-prev").addEventListener("click", () => show(idx - 1));
+    document.getElementById("dish-next").addEventListener("click", () => show(idx + 1));
+    dish.addEventListener("click", e => { if (e.target === dish) dish.close(); });
+    dish.addEventListener("close", () => opener && opener.focus());
+    let x0 = null;
+    dish.addEventListener("touchstart", e => { x0 = e.touches[0].clientX; }, { passive: true });
+    dish.addEventListener("touchend", e => {
+      if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null;
+      if (Math.abs(dx) > 60) show(idx + (dx < 0 ? 1 : -1));
+    });
+  }
+
+  // 5) Menu viewer (only when a menu image is configured).
+  const dlg = document.getElementById("menuDlg"), opener = document.getElementById("menuOpen");
+  if (dlg && opener) {
+    opener.addEventListener("click", () => dlg.showModal());
+    dlg.querySelector(".close").addEventListener("click", () => dlg.close());
+    dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener("close", () => opener.focus());
+  }
+})();
+</script>
+
+</body>
+</html>
